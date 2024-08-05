@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.choices{
+    margin-bottom: 40px;
+}
+
+.choices button{
+    margin: 0 10px;
+    min-width: 150px;
+    font-size: 100px;
+    border-radius: 100px;
+    background-color: rgba(255, 0, 106, 0.812);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+
+.choices button:hover{
+    background-color: rgb(249, 89, 156);
+}
+
+#playerDisplay, #compDisplay{
+    font-size: 25px;
+}
+
+#result{
+    font-size: 50px;
+    margin: 25px 0;
+    font-family: fantasy;
+}
+
+.score{
+    font-size: 30px;
+}
+
+.resultGreen, #playerScore{
+    color: green;
+}
+
+.resultRed, #computerScore{
+    color: red;
+}
